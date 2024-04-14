@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sesja contact</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dynalight&family=Tangerine:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+		/>
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/mediaQeries.css" />
+	</head>
+
+	<body>
+		<!-- @include 'nav.kit' -->
+
+		<main>
+			<section class="contact section-padding">
+				<div class="wrapper">
+					<div class="contactBoxes">
+						<div class="textBox">
+							<div class="textBox__title">
+								<h2 class="Title__Section">Masz jakieś pytania??</h2>
+								<p class="Title__Second">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Voluptatum, laborum.
+								</p>
+							</div>
+							<div class="textBox__text">
+								<p class="mainText">
+									Lorem ipsum dolor sit amet consectetur adipisicing elit.
+									Ipsum, sunt ad sit eveniet laudantium deleniti. Veritatis
+									dolorum aliquam sed quisquam adipisci inventore quae,
+									asperiores necessitatibus impedit corporis maxime? Deserunt,
+									eum!
+								</p>
+							</div>
+						</div>
+						<div class="contactBox">
+							<div class="contactBox__social">
+								<div class="logo">
+									<div class="logo__img">
+										<img src="./dist/img/photo-camera-svgrepo-com copy.svg" alt="" />
+									</div>
+									<div class="logo__box">
+										<p>Fotomagazyn</p>
+										<p class="logo__text">Strona internetowa dla fotografa</p>
+									</div>
+								</div>
+								<div class="footer__contact">
+									<p class="mainText">tel. 123 123 123</p>
+									<p class="mainText">email: kajdisn@gmail.com</p>
+								</div>
+
+								<div class="footer__boxes-box social-box">
+									<a href="https://www.facebook.com/">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="30"
+											height="30"
+											viewBox="0 0 512 512"
+											class="icon"
+										>
+											<path
+												fill="#3b5998"
+												fill-rule="evenodd"
+												d="M480 257.35c0-123.7-100.3-224-224-224s-224 100.3-224 224c0 111.8 81.9 204.47 189 221.29V322.12h-56.89v-64.77H221V208c0-56.13 33.45-87.16 84.61-87.16c24.51 0 50.15 4.38 50.15 4.38v55.13H327.5c-27.81 0-36.51 17.26-36.51 35v42h62.12l-9.92 64.77H291v156.54c107.1-16.81 189-109.48 189-221.31Z"
+											/>
+										</svg>
+									</a>
+									<a href="https://www.instagram.com/"
+										><img src="./dist/img/instagram.png" alt="" class="icon"
+									/></a>
+								</div>
+								<!-- <img src="./img/wedding-2207211_640.jpg" alt="" /> -->
+							</div>
+							<div class="contactBox__form">
+								<form action="mail.php" method="post">
+									<div class="form-box">
+										<label for="username">Nazwa użytkownika:</label>
+										<input
+											type="text"
+											id="username"
+											name="username"
+											placeholder="Podaj nazwę użytkownika"
+										/>
+										<p class="error-text">error</p>
+									</div>
+									<div class="form-box">
+										<label for="email">Adres e-mail:</label>
+										<input
+											type="email"
+											id="emailPost"
+											name="email"
+											placeholder="Podaj adres mailowy"
+										/>
+										<p class="error-text">error</p>
+									</div>
+									<div class="form-box">
+										<label for="msg">Wiadomość:</label>
+										<textarea
+											type="msg"
+											id="message"
+											name="msg"
+											placeholder="Napisz wiadomość"
+										></textarea>
+										<p class="error-text">error</p>
+									</div>
+
+									<div class="control-buttons">
+										<button class="sendBtn">Wyślij</button>
+									</div>
+									<div class="popup msg-status">
+										<p>Formularz został poprawnie wysłany!</p>
+										<button class="close">Zamknij</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- @include 'footer.kit' -->
+		</main>
+
+		<script src="./dist/js/main.mini.js"></script>
+	</body>
+</html>

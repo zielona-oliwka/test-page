@@ -1,0 +1,27 @@
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+a {
+	text-decoration: none;
+	font-size: 1.6rem;
+	color: black;
+	text-transform: uppercase;
+}
+
+.section-padding {
+	padding: 6em 1rem;
+}
+ul li {
+	list-style: none;
+}
+.mainText {
+	font-size: 1.3rem;
+	padding: 1rem;
+	font-weight: lighter;
+}
+.twoColums {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
